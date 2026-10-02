@@ -122,14 +122,14 @@ curl -X POST https://solver.maxwell.deals/v1/solver \
 
 ---
 
-## 2. POST /v1/turnstile — Turnstile token (legacy)
+## 2. POST /turnstile — Turnstile token (legacy)
 
 Solves a Cloudflare Turnstile widget and returns the Turnstile token.
 
 **Endpoint:**
 
 ```text
-POST https://solver.maxwell.deals/v1/turnstile
+POST https://solver.maxwell.deals/turnstile
 ```
 
 ### Request
