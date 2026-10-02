@@ -6,8 +6,7 @@
 | Capability                                                                 | Endpoint              |
 | -------------------------------------------------------------------------- | --------------------- |
 | Earn a Cloudflare `cf_clearance` cookie you can replay from your own stack | `POST /v1/solver`     |
-| IP intelligence: ASN, ISP, hostname, geo for any address                   | `POST`/`GET` `/v1/ip` |
-| Turnstile widget token (legacy)                                            | `POST /turnstile`  |
+| Turnstile widget token (legacy)                                            | `POST /turnstile`     |
 
 All request and response bodies are JSON.
 
