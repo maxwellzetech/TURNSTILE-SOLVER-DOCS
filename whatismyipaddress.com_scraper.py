@@ -21,6 +21,31 @@ API   = "https://solver.maxwell.deals"
 KEY   = "<YOUR_API_KEY>" # (OPTIONAL) Leave empty if you don't have one but requests get a cooldown
 PROXY = "http://user:pass@residential-proxy:port"   
 
+# use this free proxy for everyone to test out.
+"""
+
+socks5://solver:turnstile123@proxy.maxwell.deals:1080
+http://solver:turnstile123@proxy.maxwell.deals:3128
+
+
+Protocol: SOCKS 5
+
+IP: proxy.maxwell.deals
+Port: 1080
+username: solver
+password: turnstile123
+
+
+Protocol: http
+
+IP: proxy.maxwell.deals
+Port: 3128
+username: solver
+password: turnstile123
+
+Let's go 🏌‍♂️
+"""
+
 
 def earn_clearance(url: str) -> dict:
     r = requests.post(
