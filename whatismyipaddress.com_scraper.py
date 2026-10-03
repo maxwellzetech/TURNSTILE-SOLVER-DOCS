@@ -24,7 +24,7 @@ PROXY = "http://user:pass@residential-proxy:port"
 
 def earn_clearance(url: str) -> dict:
     r = requests.post(
-        f{API}/v1/solver",
+        f"{API}/v1/solver",
         headers={"Authorization": f"Bearer {KEY}"},
         json={"url": url, "proxy": PROXY},
         timeout=90,
